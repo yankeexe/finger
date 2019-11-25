@@ -9,7 +9,7 @@ function finger(){
     xinput $1 $touchscreen_id
 
     # Get touchscreen status
-    touchscreen_status="$(xinput --list-props 11 | awk -F ':' '/Device Enabled/ {print $NF}')"
+    touchscreen_status="$(xinput --list-props $touchscreen_id | awk -F ':' '/Device Enabled/ {print $NF}')"
 
     # Print touch screen status
     if [ $touchscreen_status -eq '1' ]; then
