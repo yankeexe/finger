@@ -1,6 +1,6 @@
 # Finger
 
-Enable or Disable touchscreen on Ubuntu based distros.
+Enable or Disable touchscreen on Debian based distros.
 
 > Note: This is a Work in Progress
 
