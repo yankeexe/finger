@@ -19,7 +19,3 @@ function finger(){
     fi
 
 }
-
-
-
-
